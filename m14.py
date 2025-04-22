@@ -1,35 +1,41 @@
-def process_contest_results(input_file):
+def process_contest_results(lines):
     max_level = -1
     winner = ""
     pakuri_species = set()
 
-    with open(input_file, 'r') as file:
-        for line in file:
-            parts = line.strip().split(',')
-            trainer_name = parts[0]
-            pakuri_data = parts[1:]
+    for line in lines:
+        parts = line.strip().split(',')
+        trainer_name = parts[0]
+        pakuri_data = parts[1:]
 
-            for entry in pakuri_data:
-                species, level_str = entry.split('-')
-                level = int(level_str)
-                pakuri_species.add(species)
+        for entry in pakuri_data:
+            species, level_str = entry.split('-')
+            level = int(level_str)
+            pakuri_species.add(species)
 
-                if level > max_level:
-                    max_level = level
-                    winner = trainer_name
+            if level > max_level:
+                max_level = level
+                winner = trainer_name
 
-    with open('winners.txt', 'w') as f:
-        f.write(winner + '\n')
-
-
-    with open('pakuri.txt', 'w') as f:
-        for species in sorted(pakuri_species):
-            f.write(species + '\n')
+    sorted_species = sorted(pakuri_species)
+    return winner, sorted_species
 
 
 def main():
-    input_file = 'contest.txt'
-    process_contest_results(input_file)
+
+    try:
+        with open('contest.txt', 'r') as file:
+            lines = file.readlines()
+    except FileNotFoundError:
+        print("Input file 'contest.txt' not found.")
+        return
+
+    winner, species_list = process_contest_results(lines)
+
+    print("Winner:", winner)
+    print("Pakuri species:")
+    for species in species_list:
+        print(species)
 
 
 if __name__ == '__main__':
