@@ -1,0 +1,18 @@
+School Kid Jack,Woodle-3
+PokéManiac Brent,Poisonat-11,Pokesir-6,Waspdrill-4
+Biker Aiden,Pokesir-2,Pokesir-27,Margerinefree-22
+Youngster Joey,Margerinefree-2,Waspdrill-29,Khrysala-26,Poisonat-8,Waspdrill-29
+Firebreather Walt,Poisomoth-1,Pokesir-5
+Camper Tanner,Khrysala-22,Poisomoth-19
+Bug Catcher Arnie,Margerinefree-1,Sicklether-11,Waspdrill-11,Catercake-21
+Picnicker Tiffany,Khrysala-3,Metashell-2,Catercake-22,Poisomoth-23,Catercake-15
+Gentleman Alfred,Poisonat-8,Sicklether-11
+Bug Catcher Wade,Waspdrill-4,Catercake-4,Metashell-3,Khrysala-24,Waspdrill-10
+Bird Keeper Josh,Poisomoth-7,Waspdrill-5
+Fisherman Ralph,Khrysala-18,Sicklether-23,Sicklether-2
+Bug Catcher Doug,Sicklether-30
+School Kid Alan,Woodle-9,Sicklether-16,Metashell-5
+Fisherman Kyle,Pokesir-10,Poisonat-9,Sicklether-2
+Sailor Huey,Margerinefree-2,Woodle-7,Margerinefree-3,Woodle-8
+Bird Keeper Vance,Poisonat-24,Catercake-4,Woodle-18,Waspdrill-1
+School Kid Torin,Metashell-18
